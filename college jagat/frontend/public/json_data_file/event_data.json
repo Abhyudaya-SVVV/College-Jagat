@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "title": "College Fest 2024",
+      "date": "2024-04-15",
+      "time": "10:00 AM",
+      "location": "Main Auditorium",
+      "description": "Join us for a day of music, dance, and fun activities.",
+      "club": "College Fest Committee",
+      "link":"https://www.instagram.com/abhyudayacodingclub/"
+    },
+    {
+      "id": 2,
+      "title": "Coding Workshop",
+      "date": "2024-04-20",
+      "time": "2:00 PM",
+      "location": "Room 301",
+      "description": "Learn the basics of web development and coding.",
+      "club": "Tech Club",
+      "link":"https://www.instagram.com/abhyudayacodingclub/"
+    },
+    {
+      "id": 3,
+      "title": "Sports Meet",
+      "date": "2024-05-10",
+      "time": "9:00 AM",
+      "location": "Sports Ground",
+      "description": "Compete in various sports and showcase your skills.",
+      "club": "Sports Club",
+      "link":"https://www.instagram.com/abhyudayacodingclub/"
+    },
+    {
+      "id": 4,
+      "title": "Sports Meet",
+      "date": "2024-05-10",
+      "time": "9:00 AM",
+      "location": "Sports Ground",
+      "description": "Compete in various sports and showcase your skills.",
+      "club": "Sports Club",
+      "link":"https://www.instagram.com/abhyudayacodingclub/"
+    },
+    {
+      "id": 5,
+      "title": "Sports Meet",
+      "date": "2024-05-10",
+      "time": "9:00 AM",
+      "location": "Sports Ground",
+      "description": "Compete in various sports and showcase your skills.",
+      "club": "Sports Club",
+      "link":"https://www.instagram.com/abhyudayacodingclub/"
+    }
+  ]
+  

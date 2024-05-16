@@ -1,0 +1,128 @@
+.nav-header{
+    width: 100%;
+    height: 5rem;
+    // background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.logo{
+    width: 15rem;
+    height: 4rem;
+    // background-color: black;
+}
+.logo a{
+    font-size: 2rem;
+    text-decoration: none;
+    color: #95ed43;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+.navlinks{
+    width: 50rem;
+    height: 4rem;
+    display: flex;
+    // background-color: black;
+}
+.navlinks ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    // list-style: none;
+}
+.navlinks ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navlinks ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+    text-align: center;
+    transition: 0.2s all linear;
+}
+.navlinks ul li a:hover{
+    color: #95ed43;
+}
+.btn-wrapper{
+    width: 15rem;
+    height: 4rem;
+    // background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button {
+ --color: #95ed43;
+ font-family: inherit;
+ display: inline-block;
+ width: 10rem;
+ height: 3em;
+ line-height: 2.5em;
+ position: relative;
+ overflow: hidden;
+ border: 2px solid var(--color);
+ transition: color .5s;
+ z-index: 1;
+ font-size: 1.3rem;
+ border-radius: 6px;
+ font-weight: 500;
+ color: white;
+ background-color: transparent;
+}
+
+button:before {
+ content: "";
+ position: absolute;
+ z-index: -1;
+ background: var(--color);
+ height: 150px;
+ width: 210px;
+ border-radius: 50%;
+}
+
+button:hover {
+ color: black;
+}
+
+button:before {
+ top: 100%;
+ left: 100%;
+ transition: all .7s;
+}
+
+button:hover:before {
+ top: -30px;
+ left: -30px;
+}
+
+button:active:before {
+ background: #95ed43;
+ transition: background 0s;
+}
+
+.submenu{
+    transform: translate(-6.5rem, 7.5rem);
+    width: 6rem;
+    // height: 5rem;
+    background-color: burlywood;
+    display: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+#submenu{
+    display: none;
+}
+
+.navlinks ul li:nth-child(4) a:hover ~ .submenu{
+    display: block;
+}
+  

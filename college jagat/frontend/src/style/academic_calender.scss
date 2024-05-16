@@ -1,0 +1,79 @@
+.academic-cal {
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  gap: 3rem;
+}
+.academic-cal .ac-heading {
+  width: 100%;
+  height: 7rem;
+  // background-color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.ac-heading .ac-head {
+  height: 4rem;
+  // background-color: aliceblue;
+}
+.ac-head h1 {
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+.ac-heading .ac-year {
+  height: 2.5rem;
+  // background-color: aliceblue;
+}
+.ac-year h2 {
+  font-size: 2rem;
+}
+.academic-cal .ac-wrapper {
+  //   width: 41vw;
+  //   height: 74vh;
+  //   background-color: brown;
+  //   overflow-y: scroll;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 10rem;
+}
+.ac-wrapper .pg {
+  width: 50rem;
+  height: 100vh;
+  //   background-color: aqua;
+}
+.pg img {
+  width: 100%;
+  height: 100%;
+  //   object-fit: cover;
+}
+@media screen and (max-width: 800px) {
+  .ac-wrapper .pg {
+    width: 40rem;
+    height: 80vh;
+  } 
+}
+@media screen and (max-width: 670px) {
+    .ac-head h1 {
+        font-size: 2.5rem;
+        font-weight: 600;
+      }
+    .ac-wrapper .pg {
+    width: 30rem;
+    height: 65vh;
+  }
+}
+@media screen and (max-width: 500px) {
+    .ac-head h1 {
+        font-size: 2rem;
+        font-weight: 600;
+      }
+    .ac-wrapper .pg {
+    width: 20rem;
+    height: 40vh;
+  }
+}

@@ -1,0 +1,19 @@
+[
+    {
+    
+        "about_abhyudaya":{
+            "id": "1",
+            "p":"In this age of increasing automation, programming is not limited to only computer science and related fields. Every competent engineer needs to know how to program. This makes Abhyudaya (The coding club of SVVV) one of the most important clubs in the University.In today's rapidly changing world, coding skills are essential for success in a variety of fields. Abhyudaya would provide students with the opportunity to learn and practice coding, network with other students who are interested in coding, and participate in coding competitions and hackathons.Unite, Innovate, learn Together: Our Club is a vibrant ecosystem where aspiring and seasoned coderscollaborate seamlessly, fuelled by the passion for technology. Together, we embark on a journey of continuous learning, transforming ideas into reality and pushing the boundaries of innovation, while nurturing a spirit of camaraderie and excellence."
+        },
+    
+        "about_clg_jagat":{
+            "id": "2",
+            "p":"Welcome to College Jagat - Your Ultimate College Companion, College Jagat is your go to destination for all things college-related. we understand that navigation through college life can be overwhelming, which is why we've created a platform that provides students with easy access to essential information, updates, and resources. with college jagat, you can stay informed about all the latest news, events, and announcement happening within your college community. From upcoming events and important dates to bus shedule and academic calendars, we've got you covered."
+        },
+    
+        "our_mission":{
+            "id": "3",
+            "p":"At College Jagat, our mission is to be your trusted companion throughout your college journey. We aim to provide reliable information, valuable insights, and a supportive community to help you thrive academically and personally. Our goal is to ensure that you have everything you need to make the most out of your college experience."
+        }
+    }
+]

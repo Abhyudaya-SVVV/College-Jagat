@@ -1,0 +1,175 @@
+.about-abhyudaya {
+  margin: 5rem 0rem;
+  width: 100%;
+  // height: 80vh;
+  // background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 4rem;
+}
+.about-abhyudaya-heading {
+  width: 95vw;
+  height: 12vh;
+  // background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.about-abhyudaya-heading .aa-line {
+  width: 10px;
+  border-radius: 30px;
+  height: 100%;
+  background-color: #95ed43;
+}
+.about-abhyudaya-heading .aa-head {
+  // width: calc(100% - 40px);
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 4.5rem;
+  font-weight: 700;
+  // background-color: yellow;
+}
+.aa-head .aa-head-h1 {
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  // background-color: black;
+}
+.aa-head-h1 a{
+  color: white;
+}
+.aa-head-h1 i{
+  cursor: pointer;
+  transition: 0.3s;
+}
+.aa-head-h1 i:hover{
+  color: #95ed43;
+}
+.aa-head-h1 h1 {
+  font-size: 4.5rem;
+  font-weight: 600;
+}
+.aa-head .aa-head-p {
+  font-size: 1.5rem;
+  width: 100%;
+  height: 2.5rem;
+  // margin-top: 30px;
+  // background-color: black;
+}
+.about-abhyudaya-content {
+  width: 85vw;
+  // height: 40vh;
+  // background-color: black;
+  box-shadow: 0px 4px 10px 0.1px #9df24e;
+  // overflow: hidden;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+.about-abhyudaya-content .aa-left {
+  width: 50vw;
+  height: 90%;
+  padding-bottom: 20px;
+  // background-color: aqua;
+  font-size: 1.1rem;
+}
+.about-abhyudaya-content .aa-right {
+  width: 35rem;
+  height: 20rem;
+  // background-color: aqua;
+}
+.aa-right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 1100px) {
+  .about-abhyudaya-content .aa-left {
+    width: 75vw;
+  }
+}
+@media (max-width: 830px) {
+  .about-abhyudaya-heading {
+    height: 10vh;
+  }
+  .about-abhyudaya-heading .aa-head-h1 h1{
+    font-size: 3.8rem;
+  }
+  .aa-head-h1 i{
+    font-size: 3.8rem;
+  }
+  .aa-head .aa-head-p {
+    font-size: 1.2rem;
+}
+}
+@media (max-width: 730px) {
+  .about-abhyudaya-content .aa-left {
+    width: 75vw;
+  }
+
+  .about-abhyudaya-heading {
+    height: 9vh;
+    width: 90vw;
+  }
+  .about-abhyudaya-heading .aa-head-h1 h1{
+    font-size: 3rem;
+  }
+  .aa-head-h1 i{
+    font-size: 3rem;
+  }
+  .aa-head .aa-head-p {
+    font-size: 1rem;
+}
+}
+
+@media (max-width: 640px) {
+  .about-abhyudaya-content .aa-left {
+    width: 75vw;
+  }
+
+  .about-abhyudaya-heading {
+    height: 8.3vh;
+  }
+  .about-abhyudaya-heading .aa-head-h1 h1{
+    font-size: 2.5rem;
+  }
+  .aa-head-h1 i{
+    font-size: 2.5rem;
+  }
+  .aa-head .aa-head-p {
+    font-size: 0.99rem;
+}
+}
+@media (max-width: 550px) {
+  .about-abhyudaya-content .aa-left {
+    width: 75vw;
+  }
+
+  .about-abhyudaya-heading {
+    height: 8vh;
+  }
+  .about-abhyudaya-heading .aa-head-h1 h1 {
+    font-size: 9vw;
+  }
+  
+  .aa-head-h1 i{
+    font-size: 9vw;
+  }
+  .aa-head .aa-head-p {
+    font-size: 4vw;
+}
+}

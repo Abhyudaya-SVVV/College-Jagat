@@ -1,0 +1,151 @@
+.about-cj{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 4rem;
+}
+
+.about-cj-heading{
+    width: 95vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.about-cj-heading .cj-line{
+    width: 10px;
+    border-radius: 30px;
+    height: 100%;
+    background-color: #95ed43;
+}
+
+.about-cj-heading .cj-head{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 4.5rem;
+    font-weight: 700;
+}
+
+.about-cj-content{
+    width: 85vw;
+    box-shadow: 0px 4px 10px 0.1px #9df24e;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.about-cj-content .cj-left{
+    width: 50vw;
+    height: 90%;
+    padding: 20px 0px;
+    font-size: 1.1rem;
+}
+
+.about-cj-content .cj-right{
+    width: 35rem;
+    height: 20rem;
+    margin: 20px;
+}
+
+.cj-right iframe{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cj-video{
+    height: 120%;
+    width: 160%;
+    margin-top: -10%;
+    margin-left: -30%;
+}
+
+@media (max-width: 1100px){
+    .about-cj-content .cj-left{
+        width: 75vw;
+    }
+}
+@media (max-width: 1000px){
+    .cj-video{
+        height: 100%;
+        width: 120%;
+        margin-top: -10%;
+        margin-left: -10%;
+    }
+}
+@media (max-width: 830px) {
+    .about-cj-heading{
+        height: 8vh;
+    }
+    .about-cj-heading .cj-head{
+        font-size: 4rem;
+    }
+    .cj-video{
+        height: 80%;
+        width: 120%;
+        margin-top: -10%;
+        margin-left: -10%;
+    }
+}
+
+@media (max-width: 730px){
+    .about-cj-content .cj-left{
+        width: 75vw;
+    }
+    
+    .about-cj-heading{
+        height: 6vh;
+        width: 90vw;
+    }
+    .about-cj-heading .cj-head{
+        font-size: 3.5rem;
+    }
+    .cj-video{
+        height: 70%;
+        width: 120%;
+        margin-top: -10%;
+        margin-left: -10%;
+    }
+}
+
+@media (max-width: 640px){
+    .about-cj-content .cj-left{
+        width: 75vw;
+    }
+    
+    .about-cj-heading{
+        height: 5vh;
+    }
+    .about-cj-heading .cj-head{
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 550px){
+    .about-cj-content .cj-left{
+        width: 75vw;
+    }
+    
+    .about-cj-heading{
+        height: 5vh;
+    }
+    .about-cj-heading .cj-head{
+        font-size: 8vw;
+    }
+
+    .cj-video {
+        height: auto;
+        margin-top: 0;
+        margin-left: 0;
+        max-width: 100%;
+    }
+}

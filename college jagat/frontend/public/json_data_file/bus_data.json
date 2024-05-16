@@ -1,0 +1,138 @@
+[
+    {
+        "bus_no": "15",
+        "bus_route": "tejaji nagar, MR9"
+    },
+    {
+        "bus_no": "37",
+        "bus_route": "Rau, Bhavarkuaa, Tower"
+    },
+    {
+        "bus_no": "17",
+        "bus_route": "Cat, Rajendra Nagar"
+    },
+    {
+        "bus_no": "11",
+        "bus_route": "LIG, Patnipura, tin Puliya"
+    },
+    {
+        "bus_no": "7",
+        "bus_route": "Hawa Bangla, Footi Kothi"
+    },
+    {
+        "bus_no": "41",
+        "bus_route": "RTO, Malganj, banganga"
+    },
+    {
+        "bus_no": "35",
+        "bus_route": "Sai Mandir, Mahu naka"
+    },
+    {
+        "bus_no": "42",
+        "bus_route": "Talawali, 114, Sikka School"
+    },
+    {
+        "bus_no": "44",
+        "bus_route": "Sapna sangeeta, Regal, M.Y.H"
+    },
+    {
+        "bus_no": "13",
+        "bus_route": "Nurani Nagar, Sirpur, Gandhi Nagar"
+    },
+    {
+        "bus_no": "39",
+        "bus_route": "Musakhedi, Maanvata, Pipliyahana"
+    },
+    {
+        "bus_no": "10",
+        "bus_route": "Bangali"
+    },
+    {
+        "bus_no": "35",
+        "bus_route": "Aerodrum"
+    },
+    {
+        "bus_no": "29",
+        "bus_route": "Vidhyadham, Shikshak Nagar"
+    },
+    {
+        "bus_no": "17",
+        "bus_route": "Kalani Nagar"
+    },
+    {
+        "bus_no": "5",
+        "bus_route": "Geeta Bhawan"
+    },
+    {
+        "bus_no": "38",
+        "bus_route": "Harsidhdhi, Rajwada, Nagar nigam"
+    },
+    {
+        "bus_no": "39",
+        "bus_route": "Vijay Nagar"
+    },
+    {
+        "bus_no": "11",
+        "bus_route": "Khajarana, Anand bazar"
+    },
+    {
+        "bus_no": "7",
+        "bus_route": "Boys Hostel Ramchandra Nagar"
+    },
+    {
+        "bus_no": "48",
+        "bus_route": "Sangam Nagar, Bangarda"
+    },
+    {
+        "bus_no": "29",
+        "bus_route": "Girls Hostel"
+    },
+    {
+        "bus_no": "9",
+        "bus_route": "Tulsi nagar, Bombay hospital"
+    },
+    {
+        "bus_no": "10",
+        "bus_route": "{ Empty }"
+    },
+    {
+        "bus_no": "44",
+        "bus_route": "Shayaji, Vikash Garden"
+    },
+    {
+        "bus_no": "9",
+        "bus_route": "Bapat, Sukhliya, Hira nagar"
+    },
+    {
+        "bus_no": "9",
+        "bus_route": "MR 10, Royal Banglow"
+    },
+    {
+        "bus_no": "10",
+        "bus_route": "Dev Guradiya"
+    },
+    {
+        "bus_no": "10",
+        "bus_route": "Police Line, Telephone nagar"
+    },
+    {
+        "bus_no": "36",
+        "bus_route": "Dewas"
+    },
+    {
+        "bus_no": "2",
+        "bus_route": "{ Empty }"
+    },
+    {
+        "bus_no": "28",
+        "bus_route": "{ Empty }"
+    },
+    {
+        "bus_no": "8",
+        "bus_route": "{ Empty }"
+    },
+    {
+        "bus_no": "{ Empty }",
+        "bus_route": "Ujjain"
+    }
+]
